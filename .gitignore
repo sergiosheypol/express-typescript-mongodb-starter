@@ -1,0 +1,9 @@
+node_modules
+
+*/**/.turbo
+
+*/**/build
+*/**/dist
+*/**/.env
+
+*/**/.DS_Store
