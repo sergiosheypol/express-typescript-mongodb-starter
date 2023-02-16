@@ -1,13 +1,13 @@
 {
-  "name": "express-ts-mongo-boilerplate",
+  "name": "express-typescript-mongo-starter",
   "version": "0.1.0",
   "description": "Express + Typescript + MongoDB boilerplate",
   "main": "server.ts",
   "scripts": {
     "clean": "npx tsc --build --clean",
     "build": "npx tsc",
-    "test": "npm run build && npx mocha \"./build/**/*.test.js\"",
-    "start": "npm run build && node build/index.js"
+    "test": "npm run build && npx mocha \"./dist/**/*.test.js\"",
+    "start": "npm run build && node dist/server.js"
   },
   "author": "Sergio Sheypol",
   "license": "ISC",
